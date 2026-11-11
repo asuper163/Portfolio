@@ -1,0 +1,52 @@
+.hero-background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 50% 45%, rgba(34, 211, 238, 0.035), transparent 58%),
+    #101216;
+}
+
+.hero-background__orb {
+  position: absolute;
+  width: min(34rem, 75vw);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.45;
+  will-change: transform;
+}
+
+.hero-background__orb--cyan {
+  top: 4%;
+  left: 4%;
+  background: rgba(34, 211, 238, 0.2);
+}
+
+.hero-background__orb--green {
+  right: 3%;
+  bottom: 0;
+  background: rgba(52, 211, 153, 0.14);
+}
+
+.hero-background__particle {
+  position: absolute;
+  border-radius: 50%;
+  background: #67e8f9;
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.4);
+  will-change: transform, opacity;
+}
+
+.hero-background__particle:nth-of-type(even) {
+  background: #6ee7b7;
+  box-shadow: 0 0 10px rgba(52, 211, 153, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-background__orb,
+  .hero-background__particle {
+    will-change: auto;
+  }
+}
