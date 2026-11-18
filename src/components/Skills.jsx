@@ -16,7 +16,7 @@ const skillClusters = [
   },
   {
     category: "Motion & UI",
-    skills: ["GSAP", "ScrollTrigger", "CSS Animations", "Figma-to-Code"]
+    skills: ["Tailwind", "Bootstrap", "CSS Animations", "Figma-to-Code"]
   },
   {
     category: "Tools & Deployment",
