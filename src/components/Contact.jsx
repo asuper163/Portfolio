@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Contact() {
   const [copied, setCopied] = useState(false);
   const sectionRef = useRef(null);
-  const email = "asuper163@gmail.com";
+  const email = "ahmedabdelfattah0098@gmail.com";
 
   useGSAP(() => {
     gsap.from('.contact-anim', {
@@ -80,7 +80,7 @@ export default function Contact() {
       </div>
 
       <div className="mt-16 md:mt-24 pt-8 border-t border-borderDark/50 font-mono text-xs text-zinc-500">
-        © {new Date().getFullYear()} Ahmed Abdelfattah Ibrahim. Built with React, Vite & GSAP.
+        © {new Date().getFullYear()} Ahmed Abdelfattah Ibrahim. Built with React, Vite.
       </div>
     </section>
   );
