@@ -59,26 +59,7 @@ export default function Contact() {
         </button>
       </div>
 
-      <div className="contact-anim flex items-center justify-center gap-6 font-mono text-xs uppercase tracking-widest text-zinc-400">
-        <a
-          href="https://www.linkedin.com/in/ahmed-abdelfattah-583482377/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-accentCyan transition-colors flex items-center gap-2"
-        >
-          LinkedIn
-        </a>
-        <span>/</span>
-        <a
-          href="https://github.com/asuper163"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-accentCyan transition-colors flex items-center gap-2"
-        >
-          GitHub
-        </a>
-      </div>
-
+     
       <div className="mt-16 md:mt-24 pt-8 border-t border-borderDark/50 font-mono text-xs text-zinc-500">
         © {new Date().getFullYear()} Ahmed Abdelfattah Ibrahim. Built with React, Vite.
       </div>
